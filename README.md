@@ -1,2 +1,2 @@
 # Project Akhir ADS
-Membuat website sneaker
+Membuat website e-commerce sneaker
