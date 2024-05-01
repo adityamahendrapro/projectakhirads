@@ -2,6 +2,14 @@
 require "functions.php";
 session_start();
 access();
+
+if(isset($_POST['search'])){
+    search($_POST);
+}
+
+function search($data){
+    $searchbox = $data['search'];
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,10 +25,10 @@ access();
     <div id="menu-bar" class="fa fa-bars"></div>
     <a href="index.php" class="logo">Sneaker Scout or Logo</a>
     <nav class="navbar">
-      <a href="#home">Home</a>
-      <form action="search.php">
-        <input type="text" placeholder="Search other shoes">
-        <button> Search</button>
+      <a href="index.php">Home</a>
+      <form action="search.php" method="post">
+        <input type="text" name="search" placeholder= >
+        <button name="search"> Search</button>
       </form>
       <!-- <a href="#product">Browse</a> -->
       <a href="#fearured">Wishlist</a>
@@ -46,7 +54,7 @@ access();
                     <div class="content">
                         <img src="img/product4/1.jpg" alt="">
                         <h3>
-                            
+                        <?php  var_dump($searchbox); ?> 
                         </h3>
                         <div class="price">$200 <span>$150</span></div>
                         <div class="stars">

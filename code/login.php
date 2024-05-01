@@ -29,7 +29,7 @@ if(isset($_POST['rememberme'])){
 
     <input type="checkbox" name="rememberme">
     <label for="rememberme">Remember Me</label><br>
-    <button type="submit" name="login">Login</button>
+    <button type="submit" name="login">Login</button> 
     <p>You dont have account?</p>
     <a href="signup.php"> Sign Up</a>
   </form>

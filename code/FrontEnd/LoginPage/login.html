@@ -1,3 +1,15 @@
+<?php
+require 'functions.php';
+if (isset($_POST["login"])){
+  login($_POST);
+}
+
+if(isset($_POST['rememberme'])){
+  cookie();
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -27,11 +39,11 @@
             <div class="never-let-them-know-your-next-move">“Never let them know your next move”</div>
             <div class="frame-3">
                 <div class="container1">
-                    <form action="">
-                        <label for="">Email</label>
-                        <input type="text" placeholder="Enter-Your-Email">
-                        <label for="">Password</label>
-                        <input type="text" placeholder="Enter-Your-Password">
+                    <form action="login.php">
+                        <label for="email">Email</label>
+                        <input type="email" name="email " placeholder="Enter-Your-Email">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="Enter-Your-Password">
                         <div class="container2">
                             <div class="kotak"></div>
                             <span class="remember-me">Remember Me</span>

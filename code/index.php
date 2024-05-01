@@ -15,11 +15,12 @@ access();
             <a href="#" class="logo">Sneaker Scout or Logo</a>
             <nav class="navbar">
                 <a href="#home">Home</a>
-                <form action="search.php">
-                <input type="text" placeholder="Search other shoes">
-                <button> Search</button>
+
+                <form action="search.php" method="post">
+                <input type="text" name="search" placeholder="Search other shoes">
+                <button name="search" id="search"> Search</button>
                 </form> 
-                <!-- <a href="#product">Browse</a> -->
+
                 <a href="#fearured">Wishlist</a>
                 <a href="#blog">blog</a>
                 <a href="#news">news</a>
