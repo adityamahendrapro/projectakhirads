@@ -27,7 +27,7 @@ function search($data){
     <nav class="navbar">
       <a href="index.php">Home</a>
       <form action="search.php" method="post">
-        <input type="text" name="search" placeholder= >
+        <input type="text" name="search" placeholder="as" >
         <button name="search"> Search</button>
       </form>
       <!-- <a href="#product">Browse</a> -->
@@ -54,7 +54,7 @@ function search($data){
                     <div class="content">
                         <img src="img/product4/1.jpg" alt="">
                         <h3>
-                        <?php  var_dump($searchbox); ?> 
+                        <?php  var_dump($searchbox) ?> 
                         </h3>
                         <div class="price">$200 <span>$150</span></div>
                         <div class="stars">

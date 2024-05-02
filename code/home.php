@@ -1,3 +1,11 @@
+<?php
+
+require "functions.php";
+// session_start();
+access();
+
+?>
+
 <!DOCTYPE html>
 <html lang="english">
 
@@ -21,20 +29,10 @@
       border-style: solid;
     }
 
-    p,
-    li,
-    ul,
-    pre,
-    div,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    figure,
-    blockquote,
-    figcaption {
+    p,li, ul, pre, 
+    div, h1, h2, 
+    h3, h4, h5, 
+    h6, figure, blockquote,figcaption {
       margin: 0;
       padding: 0;
     }
@@ -43,26 +41,18 @@
       background-color: transparent;
     }
 
-    button,
-    input,
-    optgroup,
-    select,
-    textarea {
+    button, input, optgroup, select, textarea {
       font-family: inherit;
       font-size: 100%;
       line-height: 1.15;
       margin: 0;
     }
 
-    button,
-    select {
+    button, select {
       text-transform: none;
     }
 
-    button,
-    [type="button"],
-    [type="reset"],
-    [type="submit"] {
+    button,[type="button"],[type="reset"],[type="submit"] {
       -webkit-appearance: button;
     }
 
@@ -171,28 +161,28 @@
       <div class="home-page-home-page"><img src="img\external/rectangle16632-8n1h-200h.png" alt="Rectangle16632" class="home-page-rectangle1" />
         <div class="home-page-group21"><span class="home-page-text"><span>NEW RELEASES</span></span>
           <div class="home-page-maskgroup"><img src="img\external/rectangle286638-my66-400h.png" alt="Rectangle286638" class="home-page-rectangle28" />
-            <img src="img\external/screenshot20240427092310fotorbgremover2024042792356639-9oei-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356639" class="home-page-screenshot20240427092310fotorbgremover202404279235" />
-            <span class="home-page-text02"><span>Air Jordan</span></span><span class="home-page-text04"><span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
-            </span>
-          </div>
+          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356639-9oei-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356639" class="home-page-screenshot20240427092310fotorbgremover202404279235" />
+          <span class="home-page-text02"><span>Air Jordan</span></span><span class="home-page-text04"><span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+        </span>
+      </div>
           <div class="home-page-maskgroup01"><img src="img\external/rectangle286643-6n59-400h.png" alt="Rectangle286643" class="home-page-rectangle2801" />
-            <img src="img\external/screenshot20240427092310fotorbgremover2024042792356644-sljj-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356644" class="home-page-screenshot20240427092310fotorbgremover20240427923501" />
-            <span class="home-page-text06">
-              <span>Air Jordan</span>
-            </span>
-            <span class="home-page-text08">
-              <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
-            </span>
-          </div>
+          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356644-sljj-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356644" class="home-page-screenshot20240427092310fotorbgremover20240427923501" />
+          <span class="home-page-text06">
+            <span>Air Jordan</span>
+          </span>
+          <span class="home-page-text08">
+            <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+          </span>
+        </div>
           <div class="home-page-maskgroup02"><img src="img\external/rectangle286648-8wa4-400h.png" alt="Rectangle286648" class="home-page-rectangle2802" />
-            <img src="img\external/screenshot20240427092310fotorbgremover2024042792356649-rmyv-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356649" class="home-page-screenshot20240427092310fotorbgremover20240427923502" />
-            <span class="home-page-text10">
-              <span>Air Jordan</span>
-            </span>
-            <span class="home-page-text12">
-              <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
-            </span>
-          </div>
+          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356649-rmyv-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356649" class="home-page-screenshot20240427092310fotorbgremover20240427923502" />
+          <span class="home-page-text10">
+            <span>Air Jordan</span>
+          </span>
+          <span class="home-page-text12">
+            <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+          </span>
+        </div>
           <div class="home-page-maskgroup03">
             <img src="img\external/rectangle286653-mg6-400h.png" alt="Rectangle286653" class="home-page-rectangle2803" />
             <img src="img\external/screenshot20240427092310fotorbgremover2024042792356654-b0co-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356654" class="home-page-screenshot20240427092310fotorbgremover20240427923503" />
@@ -203,23 +193,23 @@
             </span>
           </div>
           <div class="home-page-maskgroup04"><img src="img\external/rectangle286658-m5ho-400h.png" alt="Rectangle286658" class="home-page-rectangle2804" />
-            <img src="img\external/screenshot20240427092310fotorbgremover2024042792356659-g3x-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356659" class="home-page-screenshot20240427092310fotorbgremover20240427923504" />
-            <span class="home-page-text18">
-              <span>Air Jordan</span>
-            </span>
-            <span class="home-page-text20">
-              <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
-            </span>
-          </div>
+          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356659-g3x-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356659" class="home-page-screenshot20240427092310fotorbgremover20240427923504" />
+          <span class="home-page-text18">
+            <span>Air Jordan</span>
+          </span>
+          <span class="home-page-text20">
+            <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+          </span>
+        </div>
           <div class="home-page-maskgroup05"><img src="img\external/rectangle286663-avjm-400h.png" alt="Rectangle286663" class="home-page-rectangle2805" />
-            <img src="img\external/screenshot20240427092310fotorbgremover2024042792356664-pldo-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356664" class="home-page-screenshot20240427092310fotorbgremover20240427923505" />
-            <span class="home-page-text22">
-              <span>Air Jordan</span>
-            </span>
-            <span class="home-page-text24">
-              <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
-            </span>
-          </div>
+          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356664-pldo-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356664" class="home-page-screenshot20240427092310fotorbgremover20240427923505" />
+          <span class="home-page-text22">
+            <span>Air Jordan</span>
+          </span>
+          <span class="home-page-text24">
+            <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+          </span>
+        </div>
           <div class="home-page-maskgroup06">
             <img src="img\external/rectangle286668-l3x-400h.png" alt="Rectangle286668" class="home-page-rectangle2806" />
             <img src="img\external/screenshot20240427092310fotorbgremover2024042792356669-p1gg-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356669" class="home-page-screenshot20240427092310fotorbgremover20240427923506" />
@@ -310,70 +300,57 @@
           <img src="img\external/screenshot20240427092310fotorbgremover2024042792356821-hczk-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356821" class="home-page-screenshot20240427092310fotorbgremover20240427923513" />
           <span class="home-page-text62">
             <span>Air Jordan</span>
-          </span><span class="home-page-text64">
-            < span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'
-          </span>
-          </span>
-        </div>
+          </span><span class="home-page-text64"><
+          span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+        </span>
+      </div>
         <div class="home-page-maskgroup13"><img src="img\external/rectangle286821-okh7-400h.png" alt="Rectangle286821" class="home-page-rectangle2813" />
-          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356821-n1c5-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356821" class="home-page-screenshot20240427092310fotorbgremover20240427923514" />
-          <span class="home-page-text66">
-            <span>Air Jordan</span>
-          </span><span class="home-page-text68">
-            <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
-          </span>
-        </div>
+        <img src="img\external/screenshot20240427092310fotorbgremover2024042792356821-n1c5-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356821" class="home-page-screenshot20240427092310fotorbgremover20240427923514" />
+        <span class="home-page-text66">
+          <span>Air Jordan</span>
+        </span><span class="home-page-text68">
+          <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+        </span>
+      </div>
         <div class="home-page-maskgroup14">
           <img src="img\external/rectangle286822-x1rf-400h.png" alt="Rectangle286822" class="home-page-rectangle2814" />
-          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356822-lok-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356822" class="home-page-screenshot20240427092310fotorbgremover20240427923515" /><span class="home-page-text70"><span>Air Jordan</span></span><span class="home-page-text72"><span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span></span>
-        </div>
+          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356822-lok-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356822" class="home-page-screenshot20240427092310fotorbgremover20240427923515" /><span class="home-page-text70"><span>Air Jordan</span></span><span class="home-page-text72"><span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span></span></div>
         <div class="home-page-maskgroup15"><img src="img\external/rectangle286822-5l7q-400h.png" alt="Rectangle286822" class="home-page-rectangle2815" />
-          <img src="img\external/screenshot20240427092310fotorbgremover2024042792356822-59ul-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356822" class="home-page-screenshot20240427092310fotorbgremover20240427923516" />
-          <span class="home-page-text74">
-            <span>Air Jordan</span>
-          </span>
-          <span class="home-page-text76">
-            <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
-          </span>
-        </div>
+        <img src="img\external/screenshot20240427092310fotorbgremover2024042792356822-59ul-400h.png" alt="Screenshot20240427092310fotorbgremover2024042792356822" class="home-page-screenshot20240427092310fotorbgremover20240427923516" />
+        <span class="home-page-text74">
+          <span>Air Jordan</span>
+        </span>
+        <span class="home-page-text76">
+          <span>WMNS AIR JORDAN 3 RETRO 'LUCKY GREEN'</span>
+        </span>
+      </div>
         <div class="home-page-frame1321314405">
           <img src="img\external/rectangle42137249-u1qk-200h.png" alt="Rectangle42137249" class="home-page-rectangle4213" />
           <span class="home-page-text78">
             <span>Wishlist</span>
           </span><span class="home-page-text80">
-            <span>Sneaker </span>
+            <span><a href="">Sneaker</a></span>
           </span>
           <img src="img\external/rectangle36611-0djr-200h.png" alt="Rectangle36611" class="home-page-rectangle3" />
           <img src="img\external/search6611-2vtv.svg" alt="search6611" class="home-page-search" />
           <span class="home-page-text82">
             <span>
-            </span>
           </span>
+        </span>
           <div class="home-page-logo"><span class="home-page-text84">
-              <span><a href="index.php">Scout</a> </span>
-            </span>
-            <span class="home-page-text86">
-              <span><a href="index.php">Sneaker</a> </span>
-            </span>
-          </div>
-          <img src="img\external/rectangle42116616-vh5n-200h.png" alt="Rectangle42116616" class="home-page-rectangle4211" />
-          <span class="home-page-text88">
-            <span><a href="login.php">Login</a></span>
+            <span><a href="index.php">Scout</a> </span>
           </span>
+          <span class="home-page-text86">
+            <span><a href="index.php">Sneaker</a> </span>
+          </span>
+        </div>
+        <img src="img\external/rectangle42116616-vh5n-200h.png" alt="Rectangle42116616" class="home-page-rectangle4211" />
+        <span class="home-page-text88">
+          <span><a href="profile.php">profile</a></span>
+        </span>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Popup HTML -->
-  <div id="sneakerPopup" style="display:none; position:fixed; top:20%; left:20%; background:white; padding:20px; border:1px solid #ccc; z-index:1000;">
-    <h1 id="sneakerName">Sneaker Name</h1>
-    <p id="sneakerColorway">Colorway</p>
-    <p id="sneakerDescription">Description</p>
-    <p id="sneakerReleaseDate">Release Date</p>
-    <p id="sneakerRetailPrice">Retail Price</p>
-    <p id="sneakerStyleID">Style ID</p>
-    <a id="sneakerLink">Product Link</a>
-    <button onclick="closePopup()">Close</button>
   </div>
 </body>
 

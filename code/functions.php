@@ -61,7 +61,7 @@ function login($data){
     //Verifikasi password
     if(password_verify($password, $row['password'])){
       $_SESSION["login"] = true;
-      header("Location: index.php");
+      header("Location: home.php");
       exit; 
     }
     else{
